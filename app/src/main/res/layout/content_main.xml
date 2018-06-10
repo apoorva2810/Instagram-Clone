@@ -52,7 +52,6 @@
             android:textColorHint="#ffffff" />
 
         <LinearLayout
-            android:id="@+id/loginButtonMain"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
@@ -63,6 +62,7 @@
             android:padding="7dp">
 
             <TextView
+                android:id="@+id/loginButtonMain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="LOGIN"
